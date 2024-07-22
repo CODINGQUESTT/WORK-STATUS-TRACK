@@ -1,0 +1,8 @@
+<div class="todo-item">
+    <span>S.No: {{ todo.sno }}</span><br>
+    <span>Title: {{ todo.title }}</span><br>
+    <span>Description: {{ todo.desc }}</span><br>
+    <span>Status: {{ todo.active ? 'Active' : 'Inactive' }}</span><br>
+    <button class="btn btn-danger" (click)="delete()">Delete</button>
+  </div>
+  
